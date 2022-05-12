@@ -1,7 +1,7 @@
 package pl.lymek.springbootapidocker;
 
-//import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.repository.CrudRepository;
 
-public interface AnimalRepo {  // extends    CrudRepository<Animal,Long> {
+public interface AnimalRepo  extends CrudRepository<Animal,Long> {
 
 }
